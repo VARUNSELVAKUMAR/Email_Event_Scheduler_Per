@@ -53,4 +53,24 @@ Ensure these folders exist:
 mkdir -p config storage
 ```
 
+## 🔐 Environment Setup
+
+### 4. .env File
+Create a .env file in the root directory, if it already exists then update it:
+
+```
+# Twilio
+TWILIO_SID=your_twilio_sid
+TWILIO_AUTH=your_twilio_auth
+TWILIO_FROM=your_from_number
+TWILIO_TO=+your_phone_number
+
+# WhatsApp via Twilio
+WHATSAPP_FROM=whatsapp:your_from_number
+WHATSAPP_TO=whatsapp:your_phone_number
+
+# Gemini API
+GEMINI_API_KEY=your_gemini_api_key
+```
+
 
