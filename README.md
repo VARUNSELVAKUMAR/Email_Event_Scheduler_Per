@@ -33,8 +33,24 @@ Automatically reads **event-related Gmail emails**, extracts event details using
 
 ### 1. Clone the Repository
 
-```bash
+```
 git clone https://github.com/your-username/event-scheduler-app.git
 cd event-scheduler-app
+```
 
 ### 2. Create Virtual Environment
+
+```
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+pip install -r requirements.txt
+```
+
+### 3. Folder Structure
+Ensure these folders exist:
+
+```
+mkdir -p config storage
+```
+
+
