@@ -73,7 +73,6 @@ WHATSAPP_TO=whatsapp:your_phone_number
 GEMINI_API_KEY=your_gemini_api_key
 ```
 
-<br />
 ## 📧 Gmail & Calendar API Setup
 
 ### Step 1: Enable APIs
@@ -138,6 +137,42 @@ Day: Sunday
 ---
 
 ## 📁 Project Structure
+```
+event-scheduler-app/
+├── main.py
+├── requirements.txt
+├── .env
+├── config/
+│   ├── credentials.json
+│   └── token.pickle
+├── storage/
+│   └── processed_ids.json
+├── gmail/
+│   └── gmail_reader.py
+├── nlp/
+│   └── gemini_parser.py
+├── utils/
+│   └── processed_tracker.py
+├── whatsapp/
+│   └── whatsapp_sender.py
+├── webhook/
+│   └── webhook_handler.py
+├── calendar_api/
+│   └── google_calendar.py
+├── call/
+│   └── twilio_caller.py
+```
+
+---
+
+## 🧾 Credits
+Google Gemini
+
+Twilio WhatsApp API
+
+Google APIs for Python
+
+Ngrok
 
 
 
