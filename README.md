@@ -73,4 +73,27 @@ WHATSAPP_TO=whatsapp:your_phone_number
 GEMINI_API_KEY=your_gemini_api_key
 ```
 
+## 📧 Gmail & Calendar API Setup
+Step 1: Enable APIs
+
+    Visit Google Cloud Console
+
+    Create a project
+
+    Enable:
+
+        Gmail API
+
+        Google Calendar API
+
+Step 2: Create OAuth 2.0 Credentials
+
+    Go to APIs & Services → Credentials
+
+    Create OAuth client ID (Desktop App)
+
+    Download credentials.json
+
+    Place it in:
+
 
