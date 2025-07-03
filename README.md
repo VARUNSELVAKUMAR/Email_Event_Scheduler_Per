@@ -74,6 +74,7 @@ GEMINI_API_KEY=your_gemini_api_key
 ```
 
 ## 📧 Gmail & Calendar API Setup
+
 ### Step 1: Enable APIs
 * Visit Google Cloud Console
 * Create a project
@@ -86,7 +87,7 @@ GEMINI_API_KEY=your_gemini_api_key
 * Create OAuth client ID (Desktop App)
 * Download credentials.json
 * Place it in:
-```
+* ```
 config/credentials.json
 ```
 
