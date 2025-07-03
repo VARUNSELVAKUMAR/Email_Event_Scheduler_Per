@@ -166,13 +166,10 @@ event-scheduler-app/
 ---
 
 ## 🧾 Credits
-Google Gemini
-
-Twilio WhatsApp API
-
-Google APIs for Python
-
-Ngrok
+* [Google Gemini](https://ai.google.dev/)
+* [Twilio WhatsApp API](https://www.twilio.com/en-us/messaging/channels/whatsapp)
+* [Google APIs for Python](https://developers.google.com/workspace/gmail/api/quickstart/python)
+* [Ngrok](https://ngrok.com/)
 
 
 
