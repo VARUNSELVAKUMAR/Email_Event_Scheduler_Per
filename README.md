@@ -97,6 +97,24 @@ python gmail/gmail_reader.py
 ```
 
 ## 🌐 Ngrok (for WhatsApp Webhook)
+```
+ngrok http 5000
+```
+Use the generated URL (e.g., https://abc123.ngrok.io) to configure Twilio WhatsApp webhook as:
+```
+https://abc123.ngrok.io/webhook
+```
+
+## 💻 Running the App
+Run the Webhook Server:
+```
+python webhook/webhook_handler.py
+```
+Run the Gmail Event Processor:
+```
+python main.py
+```
+✅ The program should be running and you should be able to see the logs in the terminals.
 
 
 
