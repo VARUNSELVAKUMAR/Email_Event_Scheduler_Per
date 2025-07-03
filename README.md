@@ -76,7 +76,7 @@ GEMINI_API_KEY=your_gemini_api_key
 ## 📧 Gmail & Calendar API Setup
 
 ### Step 1: Enable APIs
-* Visit Google Cloud Console
+* Visit [Google Cloud Console](https://console.cloud.google.com/)
 * Create a project
 * Enable:
   * Gmail API
@@ -167,9 +167,13 @@ event-scheduler-app/
 
 ## 🧾 Credits
 * [Google Gemini](https://ai.google.dev/)
-* [Twilio WhatsApp API](https://www.twilio.com/en-us/messaging/channels/whatsapp)
-* [Google APIs for Python](https://developers.google.com/workspace/gmail/api/quickstart/python)
+* [Twilio WhatsApp API](https://www.twilio.com/whatsapp)
+* [Google APIs for Python](https://developers.google.com/gmail/api/quickstart/python)
 * [Ngrok](https://ngrok.com/)
+
+## 📬 License
+This project is under the MIT License.
+Feel free to use, modify, and contribute!
 
 
 
