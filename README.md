@@ -87,7 +87,7 @@ GEMINI_API_KEY=your_gemini_api_key
 * Create OAuth client ID (Desktop App)
 * Download credentials.json
 * Place it in:
-* ```
+```
 config/credentials.json
 ```
 
@@ -95,6 +95,9 @@ config/credentials.json
 ```
 python gmail/gmail_reader.py
 ```
+
+## 🌐 Ngrok (for WhatsApp Webhook)
+
 
 
 
