@@ -73,7 +73,6 @@ WHATSAPP_TO=whatsapp:your_phone_number
 GEMINI_API_KEY=your_gemini_api_key
 ```
 
-  
 ## 📧 Gmail & Calendar API Setup
 
 ### Step 1: Enable APIs
@@ -96,7 +95,7 @@ config/credentials.json
 ```
 python gmail/gmail_reader.py
 ```
-<br></br>
+
 ## 🌐 Ngrok (for WhatsApp Webhook)
 ```
 ngrok http 5000
@@ -106,7 +105,6 @@ Use the generated URL (e.g., https://abc123.ngrok.io) to configure Twilio WhatsA
 https://abc123.ngrok.io/webhook
 ```
 
-<br></br>
 ## 💻 Running the App
 Run the Webhook Server:
 ```
@@ -116,9 +114,9 @@ Run the Gmail Event Processor:
 ```
 python main.py
 ```
-<br></br>
+
 ✅ The program should be running and you should be able to see the logs in the terminals.
---
+---
 
 
 
