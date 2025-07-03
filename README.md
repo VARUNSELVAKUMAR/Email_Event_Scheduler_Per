@@ -82,13 +82,9 @@ GEMINI_API_KEY=your_gemini_api_key
   * Google Calendar API
 
 ### Step 2: Create OAuth 2.0 Credentials
-
-    Go to APIs & Services → Credentials
-
-    Create OAuth client ID (Desktop App)
-
-    Download credentials.json
-
-    Place it in:
+* Go to APIs & Services → Credentials
+* Create OAuth client ID (Desktop App)
+* Download credentials.json
+* Place it in:
 
 
