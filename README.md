@@ -73,8 +73,7 @@ WHATSAPP_TO=whatsapp:your_phone_number
 GEMINI_API_KEY=your_gemini_api_key
 ```
 
-
-
+  
 ## 📧 Gmail & Calendar API Setup
 
 ### Step 1: Enable APIs
