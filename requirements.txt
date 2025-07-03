@@ -1,0 +1,24 @@
+# Gmail and Calendar
+google-api-python-client
+google-auth
+google-auth-oauthlib
+
+# Twilio for WhatsApp and Calls
+twilio
+
+# Gemini API (Google Generative AI)
+google-generativeai
+
+# Email Parsing
+beautifulsoup4
+
+# Scheduler for calls
+apscheduler
+
+# Web server for WhatsApp webhook
+flask
+
+# For parsing dates if needed
+python-dateutil
+
+requests
