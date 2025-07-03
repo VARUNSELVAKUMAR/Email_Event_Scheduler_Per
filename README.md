@@ -78,7 +78,7 @@ GEMINI_API_KEY=your_gemini_api_key
 * Visit Google Cloud Console
 * Create a project
 * Enable:
-* * Gmail API
+  * Gmail API
   * Google Calendar API
 
 ### Step 2: Create OAuth 2.0 Credentials
@@ -86,5 +86,14 @@ GEMINI_API_KEY=your_gemini_api_key
 * Create OAuth client ID (Desktop App)
 * Download credentials.json
 * Place it in:
+```
+config/credentials.json
+```
+
+### Step 3: Run Auth Once to Generate Token
+```
+python gmail/gmail_reader.py
+```
+
 
 
