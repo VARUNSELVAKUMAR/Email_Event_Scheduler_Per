@@ -116,7 +116,27 @@ python main.py
 ```
 
 ✅ The program should be running and you should be able to see the logs in the terminals.
+
 ---
+
+## 🧠 Sample Email Format
+Gemini AI can parse various formats. Even this will work:
+```
+Subject: AI Course
+Body: Your assignment is due this Sunday at 4 p.m.
+```
+
+Gemini will extract:
+```
+Event: AI Course Assignment
+Date: 07.07.25
+Time: 4:00 p.m.
+Day: Sunday
+```
+
+---
+
+## 📁 Project Structure
 
 
 
